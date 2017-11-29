@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dice Game</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 col-xs-6 left">
+        <h2 class="name">player 1</h2>
+        <h1 id="score0">0</h1>
+        <div id="circle0"></div>
+
+        <div class="current-box">
+          <h4>CURRENT</h4>
+          <h2 id="current0">0</h2>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-xs-6 right">
+        <h2 class="name">player 2</h2>
+        <h1 id="score1">0</h1>
+        <div id="circle1"></div>
+
+        <div class="current-box">
+          <h4>CURRENT</h4>
+          <h2 id="current1">0</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button type="button" class="btn btn-default btn-lg btn-new">new game</button>
+      <img src="img/dice-1.png" alt="Dice" height="150" width="150" class="dice">
+      <button type="button" class="btn btn-default btn-lg btn-roll">roll dice</button>
+      <button type="button" class="btn btn-default btn-lg btn-hold">hold</button>
+    </div>
+  </div>
+
+  <script src="dice.js"></script>
+</body>
+</html>
